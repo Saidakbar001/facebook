@@ -1,10 +1,6 @@
 import React, { useState } from 'react';
 import './Messenger.css';
 import Header from '../../components/header/Header'; 
-import { CgMenuGridO } from 'react-icons/cg';
-import {RiVideoAddFill} from 'react-icons/ri';
-import {BsPencilSquare} from 'react-icons/bs';
-import {FiSearch}from 'react-icons/fi';
 
 function Messenger() {
     const [input, setInput] = useState ('');

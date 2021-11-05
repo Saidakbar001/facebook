@@ -17,7 +17,7 @@ function Header() {
         <div className="header">
             <div className="header__container">
                <div className="header__logo">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1200px-Facebook_Logo_%282019%29.png" />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1200px-Facebook_Logo_%282019%29.png" alt="logo" />
             </div>
           </div>
               <div className="mainheader__options">
