@@ -1,0 +1,156 @@
+*{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+.header{
+    width: 100%;
+    height: 60px; 
+    background-color: #fff;
+}
+
+.header__logo{
+    width: 45px;
+    height: 45px;
+    margin-top: 8px;
+    margin-left: 20px;
+    position: absolute;
+    border: none;
+}
+
+.header__logo >img{
+    width: 40px;
+    height: 40px;
+    border: none;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.searchbar{
+    width: 235px;
+    height: 42px;
+    background-color: rgb(235, 250, 250);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 11vh;
+    margin-top: 8px;
+    position: absolute;
+}
+
+.searchbar >svg{
+    position: absolute;
+    margin-left: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input{
+  background-color: rgb(235, 250, 250);;
+  margin-left: 30px;
+  border: none; 
+  outline: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+
+.header__collection{
+    position: absolute;
+    display: flex;
+    margin-left: 68vh; 
+    width: 30px;
+    height: 30px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.header__item > a > svg{
+    font-size: 25px;
+}
+
+.header__item{
+    margin: 0px 50px ;
+    list-style-type: none; 
+}
+
+.nayti{
+    width: 17vh;
+    height: 35px;
+    border-radius: 20px;
+    margin-top: -4px;
+    margin-left: -10px;
+    border: none;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.profil{
+    display: flex;
+    width: 17vh;
+    height: 35px;
+    border-radius: 20px;
+    margin-top: -4px;
+    margin-left: -90px;
+    border: none;
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.profil > h4{
+    margin-top: -1px;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.profil:hover{
+ background-color: rgb(243, 230, 230);
+}
+
+
+.profil > svg{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin-top: -18px;
+    cursor: pointer;
+}
+
+
+.header__ite{
+    position: relative;
+    display: flex;
+    width: 30px;
+    height: 50px;
+    padding-right: 20px;
+    right: 40px;
+    bottom: 10px;
+    cursor: pointer;
+    
+}
+
+.header_right{
+    border-radius: 25px;
+    width: 45px;
+    height: 45px;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.header_rightt{
+    border-radius: 25px;
+    width: 45px;
+    height: 45px;
+    border: none;
+    font-size: 30px;
+    font-weight: 900;
+    cursor: pointer;
+}

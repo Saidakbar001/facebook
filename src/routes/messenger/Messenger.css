@@ -1,0 +1,55 @@
+.messenger{
+   margin:0;
+   padding: 0;
+   width: 100%;
+   height: 100vh;
+   box-sizing: border-box;
+   background-color: css;
+   position: absolute;
+}
+
+
+.fff{
+    outline: grey;
+    border: 1px solid grey;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 37%;
+    width: 50vh;
+    height: 40px;
+    margin-left: 33%;
+    border-radius: 30px;
+    padding-left: 20px;
+}
+
+.btn{
+    border-radius: 10px;
+    margin-left: 20px;
+    width: 20vh;
+    height: 40px;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+
+.helo{
+    text-align: center;
+    margin-top: 50px   
+}
+
+.source{
+    margin-left: 75%;
+    height: 50px;
+    text-align: center;
+    width: 50vh;
+    border: 1px solid grey;
+    border-radius: 30px;
+    background-color:lightblue;
+    cursor: text;
+}
+
+h3{
+    left: 30px;
+    width: 80px;
+    height: 10px;
+
+}
